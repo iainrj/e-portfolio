@@ -1,0 +1,25 @@
+ Programming Skills
+*******************
+
+    - Experienced in:
+        -- Python
+            --- I have been using python for around 3 years and projects include a logic reasoning game for Computational Thinking module(1),
+                a command line baseball scheduler(2) and a strong password generator(3).  
+        -- Java
+            --- Various small projects including a message shortener for Fundamentals of Computing With Java.
+        -- HTML
+            --- I have created a fictional website for a music store which used HTML, CSS, PHP, JavaScript and a SQL database.(4)
+        -- CSS (4)
+        -- PHP (4)
+    - Have experience in:
+        -- SQL (4)
+        -- JavaScript (4)
+        -- C
+        -- LaTeX
+        -- Assembly
+ Other Skills
+*************
+    - Experience with building my own computers
+    - Experience with RaspberryPi
+    - Bi-lingual in Spanish and English
+***************************************************************************************************************************************************************

@@ -1,0 +1,6 @@
+DirectoryIndex howto.php index.html index.htm index.php index.php3
+#AuthUserFile /nfs/master/htpasswd
+AuthPAM_Enabled on
+AuthType Basic
+AuthName "Users Web Site"
+require user c1312579

@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!-- jquery and css for console is courtesy of this link () and is used under the MIT Licence -->
+<link href="cssConsole.console.css" type="text/css" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+<script src="cssConsole.min.js"></script>
+<!-- -->
+
+<style>
+
+body{
+background: #000000;
+font-family: courier;
+}
+
+.container {
+margin: 25px auto;
+height: 700px;
+width: 950px;
+position:relative;
+border: 3px solid #939393;
+}
+
+#input {
+width: 400px;
+display:inline-block;
+position:relative;
+float:left;
+}
+
+.bottom {
+position:absolute;
+bottom:5px;
+width: 100%;
+}
+
+.label {
+position: relative;
+left: 15px;
+top:5px;
+color: #fefefe;
+float:left;
+font-size: 16pt;
+}
+
+.console {
+position:absolute;
+bottom:32px;
+overflow:hidden;
+}
+
+.white{
+color: #fefefe;
+}
+
+.green{
+color: #02AF02;
+}
+
+.line {
+margin-left: 15px;
+margin-bottom:2px;
+font-size: 17pt;
+}
+
+.margin {
+margin-left: 50px;
+margin-bottom:2px;
+font-size: 16pt;
+}
+
+.bolden{
+	color: red;
+}
+
+</style>
+<meta charset=utf-8 />
+<title>Iain Johnston</title>
+</head>
+<body>
+	<div class="container">
+		<div class="console">
+			<div class="line white" id='write_space'>Welcome to the e-portfolio of Iain Johnston. Type <span class="bolden">help</span> for command list.
+				<p>This page is meant to look like a terminal shell. It cannot do all a real terminal can do but I hope you enjoy a different way to view an e-portfolio.
+				</p>
+			</div>
+		</div>
+		<div class="bottom">
+			<div class="label">iain@e-portfolio:~$ </div>
+			<div id="input"></div>
+		</div>
+	</div>
+	 
+		<script>
+		$(document).ready(function() {
+		    $('#input').find('input').focus();
+		});
+
+		$('#input').cssConsole({
+			inputName:'console',
+			charLimit: 60,
+			onEnter: function(){
+				addLine("iain@e-portfolio:~$ "+$('#input').find('input').val());
+				execCommand($('#input').find('input').val());
+				$('#input').cssConsole('reset');	
+			}
+		});
+
+		var lineLimit = 28;
+
+		$('.container').on('click', function() {
+			$('#input').find('input').focus();
+		});
+
+		function addLine(input, style, color) {
+				if($('.console div').length==lineLimit) {
+					$('.console div').eq(0).remove();
+				}
+				style = typeof style !== 'undefined' ? style : 'line';
+				color = typeof color !== 'undefined' ? color : 'white';
+				$('.console').append('<div class="'+style+' '+color+'">'+input+'</div>');
+		}
+
+		function execCommand(command){
+		    if ( commands[command] ) {
+		      return commands[command]();
+		    } else {
+		      addLine("Command '" + command + "' was not found.");
+		    }   
+		}
+
+		var commands = {
+			help: function (){
+				addLine("Available command list:", 'margin');
+				addLine("ls", 'margin', 'green');
+				addLine("help", 'margin', 'green');
+				addLine("sitemap", 'margin', 'green');
+			},
+
+			ls: function(){
+				addLine("Intro", 'margin', 'green');
+				addLine("Current_Studies", 'margin', 'green');
+				addLine("Skills", 'margin', 'green');
+				addLine("Qualifications", 'margin', 'green');
+				addLine("Strengths", 'margin', 'green');
+				addLine("Hobbies", 'margin', 'green');		
+			},
+
+			Intro: function(){
+				window.location = 'Intro.php';
+			},
+			
+			Current_Studies: function() {
+				window.location = 'Current_Studies.php';
+			},
+			
+			Skills: function() {
+				window.location = 'Skills.php';
+			},
+
+			Qualifications: function() {
+				window.location = 'Qualifications.php';
+			},
+
+			Stengths: function() {
+				window.location = 'Strengths.php';
+
+			},
+
+			Hobbies: function() {
+				window.location = 'Hobbies.php';
+			},
+
+			sitemap: function(){
+				window.location = 'sitemap.html';
+			},
+		}
+
+		</script>
+  
+	</body>
+</html>

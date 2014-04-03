@@ -1,0 +1,20 @@
+	I am currently enrolled in my first year of BSc Computer Science (Year in Industry) at Cardiff University
+	
+	Currently Completed Modules                         Module Mark
+		- CM1101 Computational Thinking                	75
+		- CM1102 Web Applications                      	93
+		- CM1103 Problem Solving w/ Python              85
+
+***************************************************************************************************************************************************************
+	Currently Enrolled Modules
+		- CM1201 Professional Skills
+		- CM1202 Developing Quality Software
+		- CM1203 Fundamentals of Computing with Java
+		- CM1205 Architecture and Opertating Systems
+
+***************************************************************************************************************************************************************
+
+	Why Cardiff University
+
+	I chose to study at Cardiff because of the interesting module choice and the brilliant industry connections.
+	Furthermore it is a Russell Group university and one of the best in the country for Computer Science.
