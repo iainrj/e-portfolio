@@ -1,13 +1,13 @@
 Change Log
 
--3/4/2014 -m Initial Commit
+-3/4/2014 -m 'Initial Commit'
 	-- Added  all text files
 	-- Added all php files
 	-- Added index.html
 	-- Added js and min.js files 
 	-- Added css files for console.
 
--4/4/2014 -m Fixes and updates
+-4/4/2014 -m 'Fixes and updates'
 	-- Added References.html (links not finished page)
 	-- Resized footer on nano pages
 	-- Aligned sitemap links
