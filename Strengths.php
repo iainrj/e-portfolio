@@ -17,18 +17,18 @@
 
 		<div class = 'container'>
 			<?php
-				echo "<div class='fileText'>"; 
+				echo "<div class='fileText'>";
+				echo "<pre>"; 
 				$handle = fopen("Strengths.txt", "r");
 				if ($handle) {
  					while (($line = fgets($handle)) !== false) {
- 						echo "<pre>";
      					echo $line;
-     					echo "</pre>";
  					}
 				} else {
  					echo "Error opening file!";
 				}
 				fclose($handle);
+				echo "</pre>";
 				echo "</div>";
  			?>
 
@@ -41,37 +41,37 @@
 				<!-- INTRO BLOCK -->
 				<td align="left" WIDTH="1.5%" BGCOLOR="#FFFFFF" ></td>
 
-				<td align="left" WIDTH="5%"><tt><font color="#440077">&nbsp;<a href="Intro.php">Intro</a></font></tt></td>
+				<td align="left" WIDTH="8%"><tt><font color="#440077">&nbsp;<a href="Intro.php">Intro</a></font></tt></td>
 
 				<!-- CURRENT STUDIES BLOCK -->
 
 				<td WIDTH="1.5%" BGCOLOR="#FFFFFF" ></td>
 
-				<td WIDTH="13%" ><tt><font color="#440077">&nbsp;<a href="Current_Studies.php">Current Studies</a></font></tt></td>
+				<td WIDTH="15%" ><tt><font color="#440077">&nbsp;<a href="Current_Studies.php">Current Studies</a></font></tt></td>
 
 				<!-- SKILLS BLOCK -->
 
 				<td WIDTH="1.5%" BGCOLOR="#FFFFFF" ></td>
 
-				<td WIDTH="6%" ><tt><font color="#440077">&nbsp;<a href="Skills.php">Skills</a></font></tt></td>
+				<td WIDTH="8%" ><tt><font color="#440077">&nbsp;<a href="Skills.php">Skills</a></font></tt></td>
 
 				<!-- QUALIFICATIONS BLOCK -->
 
 				<td WIDTH="1.5%" BGCOLOR="#FFFFFF" ></td>
 
-				<td WIDTH="12%" ><tt><font color="#440077">&nbsp;<a href="Qualifications.php">Qualifications</a></font></tt></td>
+				<td WIDTH="15%" ><tt><font color="#440077">&nbsp;<a href="Qualifications.php">Qualifications</a></font></tt></td>
 
 				<!-- STRENGTHS BLOCK -->
 
 				<td WIDTH="1.5%" BGCOLOR="#02AF02" ></td>
 
-				<td WIDTH="8%" ><tt><font color="#440077">&nbsp;<a href="Strengths.php">Strengths</a></font></tt></td>
+				<td WIDTH="10%" ><tt><font color="#440077">&nbsp;<a href="Strengths.php">Strengths</a></font></tt></td>
 
 				<!-- HOBBIES BLOCK -->
 
 				<td WIDTH="1.5%" BGCOLOR="#FFFFFF" ></td>
 
-				<td WIDTH="8%"><tt><font color="#440077">&nbsp;<a href="Hobbies.php">Hobbies</a></font></tt></td>
+				<td WIDTH="10%"><tt><font color="#440077">&nbsp;<a href="Hobbies.php">Hobbies</a></font></tt></td>
 				
 				<!-- TERMINAL BLOCK -->
 
@@ -79,7 +79,7 @@
 
 				<td align="right" WIDTH="1.5%" BGCOLOR="RED" ><b><tt></tt></b></td>
 
-				<td align="right" WIDTH="13%" id="backToTerminal"><tt><font color="#440077">&nbsp;<a href="index.html">Back to Terminal</a></font></tt></td>
+				<td align="right" WIDTH="8%" id="backToTerminal"><tt><font color="#440077">&nbsp;<a href="../index.html">Back to Terminal</a></font></tt></td>
 				</tr>
 
 				</table>

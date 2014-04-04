@@ -2,9 +2,9 @@
 <html>
 <head>
 <!-- jquery and css for console is courtesy of this link () and is used under the MIT Licence -->
-<link href="cssConsole.console.css" type="text/css" rel="stylesheet">
+<link href="portfolio/cssConsole.console.css" type="text/css" rel="stylesheet">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
-<script src="cssConsole.min.js"></script>
+<script src="portfolio/cssConsole.min.js"></script>
 <!-- -->
 
 <style>
@@ -135,7 +135,6 @@ font-size: 16pt;
 				addLine("Available command list:", 'margin');
 				addLine("ls", 'margin', 'green');
 				addLine("help", 'margin', 'green');
-				addLine("sitemap", 'margin', 'green');
 			},
 
 			ls: function(){
@@ -144,36 +143,42 @@ font-size: 16pt;
 				addLine("Skills", 'margin', 'green');
 				addLine("Qualifications", 'margin', 'green');
 				addLine("Strengths", 'margin', 'green');
-				addLine("Hobbies", 'margin', 'green');		
+				addLine("Hobbies", 'margin', 'green');
+				addLine("Sitemap", 'margin', 'green');
+				addLine("References", 'margin', 'green');		
 			},
 
 			Intro: function(){
-				window.location = 'Intro.php';
+				window.location = 'portfolio/Intro.php';
 			},
 			
 			Current_Studies: function() {
-				window.location = 'Current_Studies.php';
+				window.location = 'portfolio/Current_Studies.php';
 			},
 			
 			Skills: function() {
-				window.location = 'Skills.php';
+				window.location = 'portfolio/Skills.php';
 			},
 
 			Qualifications: function() {
-				window.location = 'Qualifications.php';
+				window.location = 'portfolio/Qualifications.php';
 			},
 
 			Stengths: function() {
-				window.location = 'Strengths.php';
+				window.location = 'portfolio/Strengths.php';
 
 			},
 
 			Hobbies: function() {
-				window.location = 'Hobbies.php';
+				window.location = 'portfolio/Hobbies.php';
 			},
 
-			sitemap: function(){
-				window.location = 'sitemap.html';
+			Sitemap: function(){
+				window.location = 'portfolio/sitemap.html';
+			},
+
+			References: function(){
+				window.location = 'portfolio/References.html';
 			},
 		}
 

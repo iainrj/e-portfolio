@@ -14,21 +14,21 @@ color: white;
 
 .fileText{
 font-family: courier;
-font-size: 13pt;
+font-size: 14pt;
 }
 
-.fileTextSkills{
+.fileTextSmaller{
 font-family: courier;
-font-size: 12pt;
-line-height: 9px;
+font-size: 14pt;
 }
 
 #sitemap li{
 list-style-type: none;
+font-size: 30pt;
 }
 
 .container img{
-	margin: auto 30px;
+	margin: 30px 30px;
 }
 
 .bottom {
