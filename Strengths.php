@@ -71,11 +71,17 @@
 
 				<td WIDTH="1.5%" BGCOLOR="#FFFFFF" ></td>
 
-				<td WIDTH="10%"><tt><font color="#440077">&nbsp;<a href="Hobbies.php">Hobbies</a></font></tt></td>
+				<td WIDTH="13%"><tt><font color="#440077">&nbsp;<a href="Hobbies.php">Hobbies</a></font></tt></td>
+
+				<!-- SITEMAP BLOCK -->
+
+				<td WIDTH="1.5%" BGCOLOR="2035D6" ></td>
+
+				<td WIDTH="10%"><tt><font color="#440077">&nbsp;<a href="sitemap.html">Sitemap</a></font></tt></td>
 				
 				<!-- TERMINAL BLOCK -->
 
-				<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td> <!-- Remove to add more tabs -->
+				<!-- <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>  Remove to add more tabs -->
 
 				<td align="right" WIDTH="1.5%" BGCOLOR="RED" ><b><tt></tt></b></td>
 

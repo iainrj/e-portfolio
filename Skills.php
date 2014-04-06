@@ -34,13 +34,12 @@
 				echo "</pre>";
 				echo "</div>";
  			?>
-
-			<br/>
+ 			
  			<a href = "http://github.com/iainrj/">(1)Logic game &nbsp;&nbsp;&nbsp; </a>
- 			<a href = "http://github.com/iainrj/BasesSchedule">(2)Bases Scheduler&nbsp;&nbsp;&nbsp; </a>
- 			<a href = "http://github.com/iainrj/Pass">(3)Password Generator&nbsp;&nbsp;&nbsp;</a><br/>
+ 			<a href = "http://github.com/iainrj/BasesSchedule">(2)Baseball Scheduler&nbsp;&nbsp;&nbsp; </a>
+ 			<a href = "http://github.com/iainrj/Pass">(3)Password Generator&nbsp;&nbsp;&nbsp;</a>
  			<a href = "http://github.com/iainrj/MidnightMusic">(4)Music Store&nbsp;&nbsp;</a>
- 			<a href = "http://github.com/iainrj/">(5) can be found here</a>
+<!--  			<a href = "http://github.com/iainrj/">(5) can be found here</a> -->
  				
 			</div>
 		</div>
@@ -81,11 +80,15 @@
 
 				<td WIDTH="1.5%" BGCOLOR="#FFFFFF" ><b><tt><font color="#0D0D0D"></font></tt></b></td>
 
-				<td WIDTH="10%"><tt><font color="#440077">&nbsp;<a href="Hobbies.php">Hobbies</a></font></tt></td>
+				<td WIDTH="13%"><tt><font color="#440077">&nbsp;<a href="Hobbies.php">Hobbies</a></font></tt></td>
+
+				<!-- SITEMAP BLOCK -->
+
+				<td WIDTH="1.5%" BGCOLOR="2035D6" ></td>
+
+				<td WIDTH="10%"><tt><font color="#440077">&nbsp;<a href="sitemap.html">Sitemap</a></font></tt></td>
 
 				<!-- TERMINAL BLOCK -->
-
-				<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
 				
 				<td align="right" WIDTH="1.5%" BGCOLOR="RED" ><b><tt><font color="#0D0D0D"></font></tt></b></td>
 

@@ -1,5 +1,6 @@
  Programming Skills
 *******************
+
     - Experienced in:
         -- Python
             --- I have been using python for around 3 years and projects include a logic 
@@ -21,6 +22,7 @@
 
  Other Skills
 *************
+
     - Experience with building my own computers
     - Experience with RaspberryPi
     - Bi-lingual in Spanish and English

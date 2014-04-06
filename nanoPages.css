@@ -28,7 +28,7 @@ font-size: 30pt;
 }
 
 .container img{
-	margin: 30px 30px;
+margin: 30px 30px;
 }
 
 .bottom {
@@ -76,29 +76,29 @@ margin-bottom:2px;
 }
 
 .bolden{
-	color: red;
+color: red;
 }
 
 .Intro{
-	font-size: 18pt;
-	text-align: center;
-	color: white;
+font-size: 18pt;
+text-align: center;
+color: white;
 }
 
 .IntroBody{
-	font-size: 18pt;
-	text-align: center;
-	color: white;
+font-size: 18pt;
+text-align: center;
+color: white;
 }
 
 a{
-	color: white;
-	font-size: 15pt;
-	text-decoration: none;
+color: white;
+font-size: 15pt;
+text-decoration: none;
 }
 
 a:hover{
-	color: #02AF02;
+color: #02AF02;
 }
 
 .header{

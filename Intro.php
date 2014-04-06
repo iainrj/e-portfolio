@@ -30,7 +30,7 @@
 						<tr></tr>
 						<td align="left">Email: iainrj18@gmail.com</td>
 						<tr></tr>
-						<td align="left">LinkedIn: link</td>
+						<td align="left">LinkedIn:  <a href="http://linkedin.com/profile/view?id=334891761">LinkedIn</a></td>
 						<tr></tr>
 						<td align="left">Github:  <a href='http://github.com/iainrj'>My Github</a></td>
 						<tr></tr>
@@ -41,8 +41,8 @@
 
 				<center>
 				<p>
-					This e-portfolio should demonstrate and describe my skills. It will give a basic overview 
-					of my skills, qualifications and hobbies.
+					This e-portfolio should demonstrate and describe my skills. It will also give a basic overview 
+					of my qualifications and hobbies.
 					
 				</p>
 				</center>
@@ -86,11 +86,15 @@
 
 				<td WIDTH="1.5%" BGCOLOR="#FFFFFF" ></td>
 
-				<td WIDTH= "10%"><tt><font color="#440077">&nbsp;<a href="Hobbies.php">Hobbies</a></font></tt></td>
+				<td WIDTH= "13%"><tt><font color="#440077">&nbsp;<a href="Hobbies.php">Hobbies</a></font></tt></td>
+
+				<!-- SITEMAP BLOCK -->
+
+				<td WIDTH="1.5%" BGCOLOR="2035D6" ></td>
+
+				<td WIDTH="10%"><tt><font color="#440077">&nbsp;<a href="sitemap.html">Sitemap</a></font></tt></td>
 				
 				<!-- TERMINAL BLOCK -->
-
-				<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
 
 				<td align="right" WIDTH="1.5%" BGCOLOR="RED" ><b><tt></tt></b></td>
 

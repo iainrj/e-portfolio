@@ -2,13 +2,27 @@
 **********
 
 	- Academic Strengths
-		-- Diligent
 		-- Good teamworker
-		-- Curious
+			- I have worked in groups and alone to develop software(some of which can be found in Skills) 
+			  I always try and listen to other peoples ideas and change my views accordingly.
 		-- Good public speaker
+			- I've got no problem speaking to large groups and have experience doing presentations.
+		-- Self motivated
+			- I am motivated to do projects outside those needed for my course and during the university 
+			  course am good at motivating myself to do work to a high quality and punctually.
+		-- Good problem solving skills
+			- I love to solve problems, not just in a Computer Science sense and am always willing to 
+			  learn new skills in order to get past any problems I may encounter. 
 
 *********************************************
 
 	- Personal Strengths
 		-- Good time management
+			- My work is almsot always punctual and I am good at working to deadlines and planning my
+			   work to reach those deadlines.
 		-- Friendly
+			- I am friendly and always willing to help others whenever I can.
+		-- Curious
+			- I think one of my biggest strengths is my curiousity as it leads me to learn and
+			  investigate further than most. For me it is not usually enough to learn something and take it 
+			  as fact; I will want to go into more depth about that subject.
