@@ -2,13 +2,12 @@
 <html>
 	<head>
 		<link href="nanoPages.css" type="text/css" rel="stylesheet">
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
-		<script src="cssConsole.min.js"></script>
 
 <meta charset=utf-8 />
 
 <title>Current Studies</title>
-</head>
+	</head>
+
 	<body>
 		<div class='header'>
 			<h3 id='title'>GNU nano v2.3.4</h3>
@@ -21,7 +20,7 @@
 					echo "<pre>";
 					echo "<img src='Images/CardiffLogo.png' align='right' id='CardiffLogo'>";
 					
-					$handle = fopen("Current_Studies.txt", "r");
+					$handle = fopen("Files/Current_Studies.txt", "r");
 					if ($handle) {
      					while (($line = fgets($handle)) !== false) {
          					echo $line;
@@ -34,64 +33,63 @@
  					fclose($handle);
  					echo "</pre>";
  					echo "</div>";
- 					?>
+ 				?>
 
-			</div>
 		</div>
 
-			<footer>
-				<table BORDER=0 CELLSPACING=0 WIDTH="100%" >
-				<tr >	
-				<!-- INTRO BLOCK -->
-				<td align="left" WIDTH="1.5%" BGCOLOR="#FFFFFF" ></td>
+		<footer>
+			<table BORDER=0 CELLSPACING=0 WIDTH="100%" >
+			<tr >	
+			<!-- INTRO BLOCK -->
+			<td align="left" WIDTH="1.5%" BGCOLOR="#FFFFFF" ></td>
 
-				<td align="left" WIDTH="8%"><tt><font color="#440077">&nbsp;<a href="Intro.php">Intro</a></font></tt></td>
-				
-				<!-- CURRENT STUDIES BLOCK -->
+			<td align="left" WIDTH="8%"><tt><font color="#440077">&nbsp;<a href="Intro.php">Intro</a></font></tt></td>
+			
+			<!-- CURRENT STUDIES BLOCK -->
 
-				<td WIDTH="1.5%" BGCOLOR="#02AF02" ></td>
+			<td WIDTH="1.5%" BGCOLOR="#02AF02" ></td>
 
-				<td WIDTH="15%" ><tt><font color="#440077">&nbsp;<a href="Current_Studies.php">Current Studies</a></font></tt></td>
+			<td WIDTH="15%" ><tt><font color="#440077">&nbsp;<a href="Current_Studies.php">Current Studies</a></font></tt></td>
 
-				<!-- SKILLS BLOCK -->
+			<!-- SKILLS BLOCK -->
 
-				<td WIDTH="1.5%" BGCOLOR="#FFFFFF" ></td>
+			<td WIDTH="1.5%" BGCOLOR="#FFFFFF" ></td>
 
-				<td WIDTH="8%"><tt><font color="#440077">&nbsp;<a href="Skills.php">Skills</a></font></tt></td>
+			<td WIDTH="8%"><tt><font color="#440077">&nbsp;<a href="Skills.php">Skills</a></font></tt></td>
 
-				<!-- QUALIFICATIONS BLOCK -->
+			<!-- QUALIFICATIONS BLOCK -->
 
-				<td WIDTH="1.5%" BGCOLOR="#FFFFFF" ></td>
+			<td WIDTH="1.5%" BGCOLOR="#FFFFFF" ></td>
 
-				<td WIDTH="15%"><tt><font color="#440077">&nbsp;<a href="Qualifications.php">Qualifications</a></font></tt></td>
+			<td WIDTH="15%"><tt><font color="#440077">&nbsp;<a href="Qualifications.php">Qualifications</a></font></tt></td>
 
-				<!-- STRENGTHS BLOCK -->
+			<!-- STRENGTHS BLOCK -->
 
-				<td WIDTH="1.5%" BGCOLOR="#FFFFFF" ></td>
+			<td WIDTH="1.5%" BGCOLOR="#FFFFFF" ></td>
 
-				<td WIDTH="10%"><tt><font color="#440077">&nbsp;<a href="Strengths.php">Strengths</a></font></tt></td>
+			<td WIDTH="10%"><tt><font color="#440077">&nbsp;<a href="Strengths.php">Strengths</a></font></tt></td>
 
-				<!-- HOBBIES BLOCK -->
+			<!-- HOBBIES BLOCK -->
 
-				<td WIDTH="1.5%" BGCOLOR="#FFFFFF" ></td>
+			<td WIDTH="1.5%" BGCOLOR="#FFFFFF" ></td>
 
-				<td WIDTH="13%"><tt><font color="#440077">&nbsp;<a href="Hobbies.php">Hobbies</a></font></tt></td>
+			<td WIDTH="13%"><tt><font color="#440077">&nbsp;<a href="Hobbies.php">Hobbies</a></font></tt></td>
 
-				<!-- SITEMAP BLOCK -->
+			<!-- SITEMAP BLOCK -->
 
-				<td WIDTH="1.5%" BGCOLOR="2035D6" ></td>
+			<td WIDTH="1.5%" BGCOLOR="2035D6" ></td>
 
-				<td WIDTH="10%"><tt><font color="#440077">&nbsp;<a href="sitemap.html">Sitemap</a></font></tt></td>
-				
-				<!-- TERMINAL BLOCK -->
+			<td WIDTH="10%"><tt><font color="#440077">&nbsp;<a href="sitemap.html">Sitemap</a></font></tt></td>
+			
+			<!-- TERMINAL BLOCK -->
 
-				<td align="right" WIDTH="1.5%" BGCOLOR="RED" ><b></td>
+			<td align="right" WIDTH="1.5%" BGCOLOR="RED" ><b></td>
 
-				<td align="right" WIDTH="8%" id="backToTerminal"><tt><font color="#440077">&nbsp;<a href="../index.html">Back to Terminal</a></font></tt></td>
-				</tr>
+			<td align="right" WIDTH="8%" id="backToTerminal"><tt><font color="#440077">&nbsp;<a href="../index.html">Back to Terminal</a></font></tt></td>
+			</tr>
 
-				</table>
-			</footer>
+			</table>
+		</footer>
 
 	</body>
 </html>

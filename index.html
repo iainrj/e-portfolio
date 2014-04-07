@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-<!-- jquery and css for console is courtesy of this link () and is used under the MIT Licence -->
-<link href="portfolio/cssConsole.console.css" type="text/css" rel="stylesheet">
+<!-- jquery and css for console link can be found in references and is used under the MIT Licence -->
+<link href="portfolio/CSS/cssConsole.console.css" type="text/css" rel="stylesheet">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
 <script src="portfolio/cssConsole.min.js"></script>
 <!-- -->
@@ -71,27 +71,38 @@ font-size: 16pt;
 }
 
 .bolden{
-	color: red;
+color: yellow;
 }
-
 </style>
+
 <meta charset=utf-8 />
+
 <title>Iain Johnston</title>
+
 </head>
+
 <body>
 	<div class="container">
 		<div class="console">
-			<div class="line white" id='write_space'>Welcome to the e-portfolio of Iain Johnston. Type <span class="bolden">help</span> for command list.
-				<p>This page is meant to look like a terminal shell. It cannot do all a real terminal can do but I hope you enjoy a different way to view an e-portfolio.
-				</p>
+			<div class="line white">
+				<p>Welcome to the e-portfolio of Iain Johnston. Type <span class="bolden">help</span> for command list.</p>
+
+				<p>This page is meant to look like a terminal shell. It cannot do all a real terminal can do but I hope you enjoy a different way to view an e-portfolio.</p>
+
+				<p>If you would just like go to the links for information about me and not use the Terminal click <a href="portfolio/sitemap.html"> here</a></p>
+
 			</div>
 		</div>
 		<div class="bottom">
+			
 			<div class="label">iain@e-portfolio:~$ </div>
+			
 			<div id="input"></div>
+		
 		</div>
 	</div>
 	 
+
 		<script>
 		$(document).ready(function() {
 		    $('#input').find('input').focus();
@@ -124,9 +135,9 @@ font-size: 16pt;
 
 		function execCommand(command){
 		    if ( commands[command] ) {
-		      return commands[command]();
+		    	return commands[command]();
 		    } else {
-		      addLine("Command '" + command + "' was not found.");
+		    	addLine("Command '" + command + "' was not found.");
 		    }   
 		}
 
@@ -135,6 +146,7 @@ font-size: 16pt;
 				addLine("Available command list:", 'margin');
 				addLine("ls", 'margin', 'green');
 				addLine("help", 'margin', 'green');
+				addLine("clear", 'margin', 'green')
 			},
 
 			ls: function(){
@@ -178,10 +190,13 @@ font-size: 16pt;
 			},
 
 			References: function(){
-				window.location = 'portfolio/References.html';
+				window.location = 'portfolio/references.html';
+			},
+
+			clear: function(){
+				location.reload();
 			},
 		}
-
 		</script>
   
 	</body>
