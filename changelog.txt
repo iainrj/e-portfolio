@@ -25,3 +25,8 @@ Change Log
 	-- Added references.html and references to it.
 	-- Added LinkedIn link to Intro.php
 	-- Added to Why Cardiff
+	
+-7/4/2014 -m Added clear and some formatting
+	-- Added functionality to clear index.html
+	-- Spelling fixes
+	-- Some formatting on nano pages
